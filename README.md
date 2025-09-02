@@ -57,6 +57,6 @@
 
 ###
 
-<img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=Chace-Berry.Chace-Berry&left_color=blue&right_color=blue&left_text=Spectators"  />
+<img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=Chace-Berry.Chace-Berry&left_color=red&right_color=white&left_text=Spectators"  />
 
 ###
