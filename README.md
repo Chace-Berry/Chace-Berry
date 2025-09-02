@@ -36,7 +36,19 @@
 ###
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Chace-Berry&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=6&theme=tokyonight&hide_border=false&order=2&hide=html,css,scss,dockerfile,shell&custom_title=Most%20Used%20Languages" height="150" alt="languages graph"  />
+  <!-- Custom Language Stats using shields.io -->
+  <div>
+    <h3>📊 Most Used Languages</h3>
+    <p>
+      <img src="https://img.shields.io/badge/JavaScript-34.0%25-f1e05a?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript 34%"/>
+      <img src="https://img.shields.io/badge/Python-30.0%25-3572A5?style=flat-square&logo=python&logoColor=white" alt="Python 30%"/>
+      <img src="https://img.shields.io/badge/C++-15.0%25-f34b7d?style=flat-square&logo=cplusplus&logoColor=white" alt="C++ 15%"/>
+      <img src="https://img.shields.io/badge/Kotlin-10.0%25-A97BFF?style=flat-square&logo=kotlin&logoColor=white" alt="Kotlin 10%"/>
+      <img src="https://img.shields.io/badge/Swift-6.0%25-ffac45?style=flat-square&logo=swift&logoColor=white" alt="Swift 6%"/>
+      <img src="https://img.shields.io/badge/C%23-5.0%25-178600?style=flat-square&logo=csharp&logoColor=white" alt="C# 5%"/>
+    </p>
+  </div>
+  
   <img src="https://github-profile-trophy.vercel.app?username=Chace-Berry&theme=gitdimmed&column=7&row=1&margin-w=8&margin-h=8&no-bg=false&no-frame=false&order=4" height="150" alt="trophy graph"  />
 </div>
 
