@@ -10,7 +10,7 @@
 
 ###
 
-<!-- Custom GIF section - your own GIF -->
+<!-- Artist Credit[:https://masimar00.tumblr.com/post/715578465638842368 ]-->
 <div align="center">
   <img style="width: 200%;" height="425" src="./assets/animated user gif.gif" alt="Custom Animation"  />
 </div>
