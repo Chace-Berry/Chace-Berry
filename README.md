@@ -1,4 +1,8 @@
-<h1 align="center">🌸 Greetings, traveller!</h1>
+<h1 align="center">👋 Hey there, I'm Chace!</h1>
+
+<p align="center">
+  <em>🔄 Fresh start on GitHub - previous account lost in a data breach</em><br>
+</p>
 
 ###
 
