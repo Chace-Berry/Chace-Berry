@@ -40,11 +40,11 @@
 ###
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Chace-Berry&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=8&theme=tokyonight&hide_border=false&order=2&cache_seconds=1000000000000000000000000000000000000000000000000000000&count_private=true&hide=html,css,scss" height="150" alt="languages graph"  />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Chace-Berry&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=8&theme=tokyonight&hide_border=false&order=2&cache_seconds=999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999&count_private=true&hide=html,css,scss" height="150" alt="languages graph"  />
   
   <div style="height: 10px;"></div>
   
-  <img src="https://github-profile-trophy.vercel.app?username=Chace-Berry&theme=gitdimmed&column=7&row=1&margin-w=8&margin-h=8&no-bg=false&no-frame=false&order=4" height="150" alt="trophy graph"  />
+  <img src="https://github-profile-trophy.vercel.app?username=Chace-Berry&theme=gitdimmed&column=7&row=1&margin-w=8&margin-h=8&no-bg=false&no-frame=false&order=4&no-cache=true" height="150" alt="trophy graph"  />
 </div>
 
 ###
