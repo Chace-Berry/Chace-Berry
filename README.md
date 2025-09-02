@@ -8,7 +8,7 @@
 
 <!-- Custom GIF section - your own GIF -->
 <div align="center">
-  <img style="width: 200%;" height="425" src="./assets/animated user gif.gif" alt="Custom Animation"  />
+  <img style="width: 200%;" height="850" src="./assets/animated user gif.gif" alt="Custom Animation"  />
 </div>
 
 ###
