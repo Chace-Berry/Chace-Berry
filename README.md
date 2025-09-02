@@ -8,7 +8,7 @@
 
 <!-- Custom GIF section - your own GIF -->
 <div align="center">
-  <img style="width: 200%;" height="450" src="./assets/animated user gif.gif" alt="Custom Animation"  />
+  <img style="width: 200%;" height="425" src="./assets/animated user gif.gif" alt="Custom Animation"  />
 </div>
 
 ###
@@ -36,8 +36,8 @@
 ###
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=yourusername&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=tokyonight&hide_border=false&order=2" height="150" alt="languages graph"  />
-  <img src="https://github-profile-trophy.vercel.app?username=yourusername&theme=gitdimmed&column=7&row=1&margin-w=8&margin-h=8&no-bg=false&no-frame=false&order=4" height="150" alt="trophy graph"  />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?Chace-Berry=Chace-Berry&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=tokyonight&hide_border=false&order=2" height="150" alt="languages graph"  />
+  <img src="https://github-profile-trophy.vercel.app?Chace-Berry=Chace-Berry&theme=gitdimmed&column=7&row=1&margin-w=8&margin-h=8&no-bg=false&no-frame=false&order=4" height="150" alt="trophy graph"  />
 </div>
 
 ###
