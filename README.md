@@ -36,65 +36,7 @@
 ###
 
 <div align="center">
-  <!-- Custom Language Stats -->
-  <div style="background: #0d1117; border-radius: 6px; padding: 20px; width: 320px; display: inline-block; vertical-align: top;">
-    <h3 style="color: #58a6ff; margin: 0 0 15px 0; font-size: 16px;">Most Used Languages</h3>
-    
-    <!-- JavaScript 34% -->
-    <div style="display: flex; align-items: center; margin-bottom: 8px;">
-      <span style="color: #f1e05a; font-size: 12px; width: 80px;">JavaScript</span>
-      <div style="background: #21262d; height: 8px; flex: 1; border-radius: 4px; margin: 0 8px;">
-        <div style="background: #f1e05a; height: 8px; width: 34%; border-radius: 4px;"></div>
-      </div>
-      <span style="color: #8b949e; font-size: 12px;">34.0%</span>
-    </div>
-    
-    <!-- Python 30% -->
-    <div style="display: flex; align-items: center; margin-bottom: 8px;">
-      <span style="color: #3572A5; font-size: 12px; width: 80px;">Python</span>
-      <div style="background: #21262d; height: 8px; flex: 1; border-radius: 4px; margin: 0 8px;">
-        <div style="background: #3572A5; height: 8px; width: 30%; border-radius: 4px;"></div>
-      </div>
-      <span style="color: #8b949e; font-size: 12px;">30.0%</span>
-    </div>
-    
-    <!-- C++ 15% -->
-    <div style="display: flex; align-items: center; margin-bottom: 8px;">
-      <span style="color: #f34b7d; font-size: 12px; width: 80px;">C++</span>
-      <div style="background: #21262d; height: 8px; flex: 1; border-radius: 4px; margin: 0 8px;">
-        <div style="background: #f34b7d; height: 8px; width: 15%; border-radius: 4px;"></div>
-      </div>
-      <span style="color: #8b949e; font-size: 12px;">15.0%</span>
-    </div>
-    
-    <!-- Kotlin 10% -->
-    <div style="display: flex; align-items: center; margin-bottom: 8px;">
-      <span style="color: #A97BFF; font-size: 12px; width: 80px;">Kotlin</span>
-      <div style="background: #21262d; height: 8px; flex: 1; border-radius: 4px; margin: 0 8px;">
-        <div style="background: #A97BFF; height: 8px; width: 10%; border-radius: 4px;"></div>
-      </div>
-      <span style="color: #8b949e; font-size: 12px;">10.0%</span>
-    </div>
-    
-    <!-- Swift 6% -->
-    <div style="display: flex; align-items: center; margin-bottom: 8px;">
-      <span style="color: #ffac45; font-size: 12px; width: 80px;">Swift</span>
-      <div style="background: #21262d; height: 8px; flex: 1; border-radius: 4px; margin: 0 8px;">
-        <div style="background: #ffac45; height: 8px; width: 6%; border-radius: 4px;"></div>
-      </div>
-      <span style="color: #8b949e; font-size: 12px;">6.0%</span>
-    </div>
-    
-    <!-- C# 5% -->
-    <div style="display: flex; align-items: center; margin-bottom: 0;">
-      <span style="color: #178600; font-size: 12px; width: 80px;">C#</span>
-      <div style="background: #21262d; height: 8px; flex: 1; border-radius: 4px; margin: 0 8px;">
-        <div style="background: #178600; height: 8px; width: 5%; border-radius: 4px;"></div>
-      </div>
-      <span style="color: #8b949e; font-size: 12px;">5.0%</span>
-    </div>
-  </div>
-  
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Chace-Berry&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=6&theme=tokyonight&hide_border=false&order=2&hide=html,css,scss,dockerfile,shell&custom_title=Most%20Used%20Languages" height="150" alt="languages graph"  />
   <img src="https://github-profile-trophy.vercel.app?username=Chace-Berry&theme=gitdimmed&column=7&row=1&margin-w=8&margin-h=8&no-bg=false&no-frame=false&order=4" height="150" alt="trophy graph"  />
 </div>
 
