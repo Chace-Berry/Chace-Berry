@@ -8,7 +8,7 @@
 
 <!-- Custom GIF section - replace with your own -->
 <div align="center">
-  <img style="width: 100%;" height="425" src="https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif"  />
+  <img style="width: 100%;" height="425" src="https://i.imgur.com/sY3ni34.gif"  />
 </div>
 
 ###
