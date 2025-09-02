@@ -6,9 +6,9 @@
 
 ###
 
-<!-- Custom GIF section - replace with your own -->
+<!-- Custom GIF section - your own GIF -->
 <div align="center">
-  <img style="width: 100%;" height="425" src="https://i.imgur.com/sY3ni34.gif"  />
+  <img style="width: 100%;" height="425" src="./assets/animated user gif.gif" alt="Custom Animation"  />
 </div>
 
 ###
