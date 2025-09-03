@@ -59,13 +59,13 @@
 
 <div align="center">
   <h2>📂 Current Projects</h2>
-  <!-- PROJECT_CARDS_START -->
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset=.output/project-cards-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset=".output/project-cards.svg">
-    <img alt="project cards loading animation" src=".output/project-cards-dark.svg">
-  </picture>
-  <!-- PROJECT_CARDS_END -->
+  <a href="https://github.com/Chace-Berry/Alterion-lang" target="_blank">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./assets/card-dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="./assets/card-light.svg">
+      <img alt="Current Projects - Click to view Alterion-lang" src="./assets/card-dark.svg" style="width: 100%; max-width: 800px;">
+    </picture>
+  </a>
 </div>
 
 ###
