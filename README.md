@@ -55,7 +55,26 @@
   <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Chace-Berry/Chace-Berry/output/github-contribution-grid-snake-dark.svg">
 </picture>
 
+---
+
+<div align="center">
+  <h2>📂 Current Projects</h2>
+  <!-- PROJECT_CARDS_START -->
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Chace-Berry/Alterion-lang/output/project-cards-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Chace-Berry/Alterion-lang/output/project-cards.svg">
+    <img alt="project cards loading animation" src="https://raw.githubusercontent.com/Chace-Berry/Alterion-lang/output/project-cards-dark.svg">
+  </picture>
+  <!-- PROJECT_CARDS_END -->
+</div>
+
 ###
+
+<div align="left">
+  <a href="https://www.linkedin.com/in/chace-berry/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-Chace%20Berry-blue?logo=linkedin" alt="LinkedIn">
+  </a>
+</div>
 
 <img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=Chace-Berry.Chace-Berry&left_color=red&right_color=black&left_text=Spectators"  />
 
