@@ -20,11 +20,14 @@ jobs:
         with:
           node-version: '18'
           
-      - name: Generate Project Cards
+      - name: Generate Project Cards SVG
         run: |
+          mkdir -p output
+          
           cat > generate-cards.js << 'EOF'
           const fs = require('fs');
           
+          // Project configuration
           const projects = [
             {
               name: "Alterion-lang",
@@ -32,82 +35,96 @@ jobs:
               description: "A modern, expressive programming language for native, web, and mobile apps.",
               logoLight: "https://raw.githubusercontent.com/Chace-Berry/Alterion-lang/main/assets/Logo_Dark.svg?v=1",
               logoDark: "https://raw.githubusercontent.com/Chace-Berry/Alterion-lang/main/assets/Logo.svg?v=1"
-            },
+            }
           ];
           
           async function fetchRepoStats(repo) {
             try {
               const response = await fetch(`https://api.github.com/repos/${repo}`, {
-                headers: {
-                  'User-Agent': 'GitHub-Action'
-                }
+                headers: { 'User-Agent': 'GitHub-Action' }
               });
-              if (!response.ok) {
-                throw new Error(`HTTP ${response.status}`);
-              }
+              if (!response.ok) throw new Error(`HTTP ${response.status}`);
               const data = await response.json();
               return {
                 stars: data.stargazers_count || 0,
-                forks: data.forks_count || 0,
-                language: data.language || 'Unknown'
+                forks: data.forks_count || 0
               };
             } catch (error) {
               console.error(`Error fetching stats for ${repo}:`, error);
-              return { stars: 0, forks: 0, language: 'Unknown' };
+              return { stars: 0, forks: 0 };
             }
           }
           
-          async function generateCards() {
-            let cardsHtml = '';
+          function generateSVG(isDark = false) {
+            const bgColor = isDark ? '#0d1117' : '#ffffff';
+            const textColor = isDark ? '#c9d1d9' : '#24292f';
             
-            for (const project of projects) {
-              const stats = await fetchRepoStats(project.repo);
-              
-              const cardHtml = `
-          <div style="max-width: 800px; margin: 20px auto; border-radius: 30px; overflow: hidden; box-shadow: 0 4px 20px rgba(0,0,0,0.15); display: flex; height: 250px;">
-            <!-- Left side - Logo area -->
-            <div style="flex: 0 0 200px; background: linear-gradient(135deg, #1a1a1a 0%, #0d1117 100%); display: flex; align-items: center; justify-content: center; position: relative;">
-              <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 80px; height: 80px; border-radius: 50%; background: radial-gradient(circle, rgba(58, 123, 213, 0.3) 0%, transparent 70%);"></div>
-              <a href="https://github.com/${project.repo}" target="_blank" style="text-decoration: none; z-index: 1;">
-                <picture>
-                  <source media="(prefers-color-scheme: dark)" srcset="${project.logoDark}">
-                  <source media="(prefers-color-scheme: light)" srcset="${project.logoLight}">
-                  <img alt="${project.name} Logo" src="${project.logoLight}" width="60" style="display: block; margin: auto; position: relative; z-index: 2;">
-                </picture>
-              </a>
-            </div>
+            return `
+          <svg width="800" height="540" viewBox="0 0 800 540" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="800" height="540" fill="${bgColor}"/>
             
-            <!-- Right side - Info area -->
-            <div style="flex: 1; background: linear-gradient(135deg, #4a4a4a 0%, #2d2d2d 100%); color: white; padding: 30px 25px; display: flex; flex-direction: column; justify-content: space-between; position: relative;">
-              <!-- Content -->
-              <div>
-                <h3 style="margin: 0 0 8px 0; font-size: 24px; font-weight: 700; color: #ffffff; letter-spacing: -0.5px;">${project.name}</h3>
-                <p style="margin: 0 0 15px 0; font-size: 14px; line-height: 1.4; color: #c9d1d9; opacity: 0.9;">${project.description}</p>
-              </div>
-              
-              <!-- Stats badges at bottom -->
-              <div style="display: flex; gap: 8px; align-items: center;">
-                <img src="https://img.shields.io/github/stars/${project.repo}?style=for-the-badge&logo=github&logoColor=white&color=58a6ff&labelColor=rgba(255,255,255,0.1)" alt="GitHub stars">
-                <img src="https://img.shields.io/github/forks/${project.repo}?style=for-the-badge&logo=github&logoColor=white&color=58a6ff&labelColor=rgba(255,255,255,0.1)" alt="GitHub forks">
-              </div>
-            </div>
-          </div>`;
-              
-              cardsHtml += cardHtml;
-            }
+            <!-- Card 1: Alterion-lang -->
+            <rect x="20" y="20" width="760" height="230" rx="30" fill="url(#grad1)" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+            <rect x="20" y="20" width="180" height="230" rx="30" fill="url(#grad2)"/>
             
-            return cardsHtml;
+            <!-- Glow effect -->
+            <circle cx="110" cy="135" r="40" fill="rgba(58, 123, 213, 0.3)"/>
+            
+            <!-- Logo placeholder -->
+            <circle cx="110" cy="135" r="30" fill="${isDark ? '#ffffff' : '#4a4a4a'}" opacity="0.8"/>
+            <text x="110" y="145" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="${isDark ? '#0d1117' : '#ffffff'}" text-anchor="middle">A</text>
+            
+            <!-- Project info -->
+            <text x="230" y="60" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="${textColor}">Alterion-lang</text>
+            <text x="230" y="85" font-family="Arial, sans-serif" font-size="14" fill="${textColor}" opacity="0.9">A modern, expressive programming language for native, web, and mobile apps.</text>
+            
+            <!-- Stats -->
+            <rect x="230" y="200" width="80" height="30" rx="6" fill="rgba(88, 166, 255, 0.1)" stroke="#58a6ff" stroke-width="1"/>
+            <text x="270" y="220" font-family="Arial, sans-serif" font-size="12" fill="#58a6ff" text-anchor="middle">⭐ 0</text>
+            
+            <rect x="320" y="200" width="80" height="30" rx="6" fill="rgba(88, 166, 255, 0.1)" stroke="#58a6ff" stroke-width="1"/>
+            <text x="360" y="220" font-family="Arial, sans-serif" font-size="12" fill="#58a6ff" text-anchor="middle">🍴 0</text>
+            
+            <!-- Card 2: BonjourclassewebApp -->
+            <rect x="20" y="270" width="760" height="230" rx="30" fill="url(#grad1)" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+            <rect x="20" y="270" width="180" height="230" rx="30" fill="url(#grad2)"/>
+            
+            <!-- Glow effect -->
+            <circle cx="110" cy="385" r="40" fill="rgba(58, 123, 213, 0.3)"/>
+            
+            <!-- Logo -->
+            <circle cx="110" cy="385" r="30" fill="${isDark ? '#ffffff' : '#4a4a4a'}" opacity="0.8"/>
+            <text x="110" y="395" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="${isDark ? '#0d1117' : '#ffffff'}" text-anchor="middle">B</text>
+            
+            <!-- Project info -->
+            <text x="230" y="310" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="${textColor}">BonjourclassewebApp</text>
+            <text x="230" y="335" font-family="Arial, sans-serif" font-size="14" fill="${textColor}" opacity="0.9">Your current web application project.</text>
+            
+            <!-- Stats -->
+            <rect x="230" y="450" width="80" height="30" rx="6" fill="rgba(88, 166, 255, 0.1)" stroke="#58a6ff" stroke-width="1"/>
+            <text x="270" y="470" font-family="Arial, sans-serif" font-size="12" fill="#58a6ff" text-anchor="middle">⭐ 0</text>
+            
+            <rect x="320" y="450" width="80" height="30" rx="6" fill="rgba(88, 166, 255, 0.1)" stroke="#58a6ff" stroke-width="1"/>
+            <text x="360" y="470" font-family="Arial, sans-serif" font-size="12" fill="#58a6ff" text-anchor="middle">🍴 0</text>
+            
+            <defs>
+              <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" style="stop-color:#4a4a4a;stop-opacity:1" />
+                <stop offset="100%" style="stop-color:#2d2d2d;stop-opacity:1" />
+              </linearGradient>
+              <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" style="stop-color:#1a1a1a;stop-opacity:1" />
+                <stop offset="100%" style="stop-color:#0d1117;stop-opacity:1" />
+              </linearGradient>
+            </defs>
+          </svg>`;
           }
           
-          generateCards().then(cards => {
-            const readmeContent = fs.readFileSync('README.md', 'utf8');
-            const updatedContent = readmeContent.replace(
-              /<!-- PROJECT_CARDS_START -->[\s\S]*?<!-- PROJECT_CARDS_END -->/,
-              `<!-- PROJECT_CARDS_START -->\n${cards}\n<!-- PROJECT_CARDS_END -->`
-            );
-            fs.writeFileSync('README.md', updatedContent);
-            console.log('Project cards updated successfully!');
-          });
+          // Generate both dark and light versions
+          fs.writeFileSync('output/project-cards-dark.svg', generateSVG(true));
+          fs.writeFileSync('output/project-cards.svg', generateSVG(false));
+          
+          console.log('Project cards SVG generated successfully!');
           EOF
           
           node generate-cards.js
@@ -116,6 +133,6 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add README.md
-          git diff --staged --quiet || git commit -m "Update project stats"
+          git add output/
+          git diff --staged --quiet || git commit -m "Update project cards SVG"
           git push
