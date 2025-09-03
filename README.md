@@ -63,7 +63,7 @@
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="./assets/card-dark.svg">
       <source media="(prefers-color-scheme: light)" srcset="./assets/card-light.svg">
-      <img alt="Current Projects - Click to view Alterion-lang" src="./assets/card-dark.svg" style="width: 100%; max-width: 800px;">
+      <img alt="Current Projects - Click to view Alterion-lang" src="./assets/card-dark.svg" style="width: 100%; max-width: 100px;">
     </picture>
   </a>
 </div>
