@@ -71,11 +71,11 @@
 ###
 
 <div align="left">
-  <a href="https://www.linkedin.com/in/chace-berry/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-Chace%20Berry-blue?logo=linkedin" alt="LinkedIn">
-  </a>
-</div>
 
+</div>
+  <a href="https://www.linkedin.com/in/chace-berry/" target="_blank">
+    <img align="left" src="https://img.shields.io/badge/LinkedIn-Chace%20Berry-blue?logo=linkedin" alt="LinkedIn">
+  </a>
 <img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=Chace-Berry.Chace-Berry&left_color=red&right_color=black&left_text=Spectators"  />
 
 ###
