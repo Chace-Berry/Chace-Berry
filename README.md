@@ -61,9 +61,9 @@
   <h2>📂 Current Projects</h2>
   <!-- PROJECT_CARDS_START -->
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Chace-Berry/Chace-Berry/output/project-cards-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Chace-Berry/Chace-Berry/output/project-cards.svg">
-    <img alt="project cards loading animation" src="https://raw.githubusercontent.com/Chace-Berry/Chace-Berry/output/project-cards-dark.svg">
+    <source media="(prefers-color-scheme: dark)" srcset=.output/project-cards-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset=".output/project-cards.svg">
+    <img alt="project cards loading animation" src=".output/project-cards-dark.svg">
   </picture>
   <!-- PROJECT_CARDS_END -->
 </div>
