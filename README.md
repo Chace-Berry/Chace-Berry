@@ -5,7 +5,7 @@
 </p>
 
 ###
-
+ 
 <h4 align="left">💼 Lead Developer @ TechnoSmart247 <br>🌐 Head of Web Development @ Hexagrid IT Solutions<br>🚀 Freelancer for 1.3 Years<br>🎨 Full-Stack Developer & Designer</h4>
 
 ###
