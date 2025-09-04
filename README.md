@@ -70,12 +70,16 @@
 
 ###
 
-<div align="left">
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Chace%20Berry-blue?logo=linkedin)](https://www.linkedin.com/in/chace-berry/)
+&nbsp;
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-orange?logo=buymeacoffee&logoColor=white)](https://buymeacoffee.com/chaceberry)
+&nbsp;
+![Spectators](https://visitor-badge.laobi.icu/badge?page_id=Chace-Berry.Chace-Berry&left_color=red&right_color=black&left_text=Spectators)
 
 </div>
-  <a href="https://www.linkedin.com/in/chace-berry/" target="_blank">
-    <img align="left" src="https://img.shields.io/badge/LinkedIn-Chace%20Berry-blue?logo=linkedin" alt="LinkedIn">
-  </a>
-<img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=Chace-Berry.Chace-Berry&left_color=red&right_color=black&left_text=Spectators"  />
+
+###
 
 ###
