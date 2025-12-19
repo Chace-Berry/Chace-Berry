@@ -3,7 +3,6 @@
  
 <h4 align="left">💼 Lead Developer @HexagridIt Solutions <br>🚀 Freelancer for 2 Years<br>🎨 Full-Stack Developer & Designer</h4>
 
-###
 
 <!-- Artist Credit[:https://masimar00.tumblr.com/post/715578465638842368 ]-->
 <div align="center">
