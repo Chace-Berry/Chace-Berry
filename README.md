@@ -1,9 +1,4 @@
 <h1 align="center">👋 Hey there, I'm Chace!</h1>
-
-<p align="center"> 
-  <em>🔄 Fresh start on GitHub - previous account lost in a data breach</em><br>
-</p>
-
 ###
  
 <h4 align="left">💼 Lead Developer @HexagridIt Solutions <br>🚀 Freelancer for 2 Years<br>🎨 Full-Stack Developer & Designer</h4>
