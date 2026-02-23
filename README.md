@@ -1,7 +1,7 @@
 <h1 align="center">👋 Hey there, I'm Chace!</h1>
 
  
-<h4 align="left">💼 Lead Developer @HexagridIt Solutions <br>🚀 Freelancer for 2 Years<br>🎨 Full-Stack Developer & Designer</h4>
+<h4 align="left">💼 Lead Developer <a href="https://hexagridit.com">@HexagridIt Solutions</a> <br>🚀 Freelancer for 2 Years<br>🎨 Full-Stack Developer & Designer</h4>
 
 ###
 <!-- Artist Credit[:https://masimar00.tumblr.com/post/715578465638842368 ]-->
