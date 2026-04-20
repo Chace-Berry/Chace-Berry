@@ -2,11 +2,11 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1e1e2e,50:cba6f7,100:89b4fa&height=120&section=header&animation=fadeIn" width="100%"/>
 
-<img src="./assets/animated user gif.gif" height="370" alt="Chace Berry"/>
+<img src="./assets/animated user gif.gif" height="500" alt="Chace Berry"/>
 
 <br/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1000&color=CBA6F7&center=true&vCenter=true&width=620&lines=Rust+%26+Systems+Developer;Hyprland+Ricing+Enthusiast;Founder+%40+Alterion+Software;Full-Stack+Engineer+%26+Designer;Building+languages+from+scratch+%F0%9F%A6%80)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1000&color=CBA6F7&center=true&vCenter=true&width=620&lines=Rust+%26+Systems+Developer;Hyprland+Ricing+Enthusiast;Founder+%40+Alterion+Software;Full-Stack+Developer;Building+cool+things+on+the+Github+)](https://git.io/typing-svg)
 
 </div>
 
