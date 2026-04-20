@@ -50,7 +50,7 @@
   
   <div style="height: 10px;"></div>
   
-  <img src="https://github-profile-trophy.vercel.app?username=Chace-Berry&theme=gitdimmed&column=7&row=1&margin-w=8&margin-h=8&no-bg=false&no-frame=false&order=4" height="150" alt="trophy graph"/>
+ <img src="https://github-profile-trophy-zeta.vercel.app?username=Chace-Berry&theme=gitdimmed&title=Commits,PullRequest,Repository,MultipleLang,LongTimeUser,Issues&column=6&margin-w=8&margin-h=8&no-bg=false&no-frame=false" height="150" alt="trophy graph"/>
 </div>
 
 ###
