@@ -18,7 +18,7 @@
 struct Developer {
     name:   &'static str,
     roles:  [&'static str; 3],
-    os:     &'static str,
+    linux_flavor_of_choice:     &'static str,
     editor: &'static str,
     shell:  &'static str,
 }
@@ -28,7 +28,7 @@ const CHACE: Developer = Developer {
     roles:  ["Lead Dev @ HexagridIt & CoralDune",
              "Founder @ Alterion Software",
              "Full-Stack Engineer & Designer"],
-    os:     "Arch Linux  //  Hyprland",
+    linux_flavor_of_choice:    "Artix Linux  //  Hyprland",
     editor: "Neovim",
     shell:  "Zsh",
 };
