@@ -116,7 +116,7 @@ const CHACE: Developer = Developer {
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="https://i.imgur.com/yFoBrfi.gif" height="95" alt="Daitaku Helios"/>
 
-<br/><sub><sup>がんばれ！</sup></sub>
+<br/><sub>がんばれ！</sub>
 
 </div>
 
