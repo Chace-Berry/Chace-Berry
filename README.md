@@ -52,23 +52,27 @@ const CHACE: Developer = Developer {
   <tr>
     <td align="center">
       <a href="https://github.com/Alterion-Software/alterion-encrypt">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Alterion-Software&repo=alterion-encrypt&theme=catppuccin_mocha&hide_border=true" alt="alterion-encrypt"/>
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Alterion-Software&repo=alterion-encrypt&theme=catppuccin_mocha&hide_border=true" width="450" alt="alterion-encrypt"/>
       </a>
     </td>
+  </tr>
+  <tr>
     <td align="center">
       <a href="https://github.com/Alterion-Software/alterion-ecdh">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Alterion-Software&repo=alterion-ecdh&theme=catppuccin_mocha&hide_border=true" alt="alterion-ecdh"/>
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Alterion-Software&repo=alterion-ecdh&theme=catppuccin_mocha&hide_border=true" width="450" alt="alterion-ecdh"/>
       </a>
     </td>
   </tr>
   <tr>
     <td align="center">
       <a href="https://github.com/Alterion-Software/alterion-encrypt-js">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Alterion-Software&repo=alterion-encrypt-js&theme=catppuccin_mocha&hide_border=true" alt="alterion-encrypt-js"/>
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Alterion-Software&repo=alterion-encrypt-js&theme=catppuccin_mocha&hide_border=true" width="450" alt="alterion-encrypt-js"/>
       </a>
     </td>
+  </tr>
+  <tr>
     <td align="center">
-      <img src="https://i.imgur.com/ePNZDDa.gif" height="130" alt="Tokai Teio"/>
+       <img src="https://i.imgur.com/ePNZDDa.gif" height="130" alt="Tokai Teio"/>
     </td>
   </tr>
 </table>
@@ -83,12 +87,14 @@ const CHACE: Developer = Developer {
   <tr>
     <td align="center">
       <a href="https://github.com/Chace-Berry/Alterion-lang">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Chace-Berry&repo=Alterion-lang&theme=catppuccin_mocha&hide_border=true" alt="Alterion-lang"/>
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Chace-Berry&repo=Alterion-lang&theme=catppuccin_mocha&hide_border=true" width="450" alt="Alterion-lang"/>
       </a>
     </td>
+  </tr>
+  <tr>
     <td align="center">
       <a href="https://github.com/Chace-Berry/Alterion_Panel">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Chace-Berry&repo=Alterion_Panel&theme=catppuccin_mocha&hide_border=true" alt="Alterion_Panel"/>
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Chace-Berry&repo=Alterion_Panel&theme=catppuccin_mocha&hide_border=true" width="450" alt="Alterion_Panel"/>
       </a>
     </td>
   </tr>
