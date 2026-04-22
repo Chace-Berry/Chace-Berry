@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1e1e2e,50:cba6f7,100:89b4fa&height=120&section=header&animation=fadeIn" width="100%"/>
 
-<img src="./assets/animated_hero.webp" height="500" alt="Chace Berry"/>
+<img src="./assets/animated_hero.webp" height="1080" alt="Chace Berry"/>
 
 <br/>
 
