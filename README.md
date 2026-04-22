@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1e1e2e,50:cba6f7,100:89b4fa&height=120&section=header&animation=fadeIn" width="100%"/>
 
-<img src="./assets/animated user gif.gif" height="500" alt="Chace Berry"/>
+<img src="./assets/animated_hero.webp" height="500" alt="Chace Berry"/>
 
 <br/>
 
@@ -72,7 +72,7 @@ const CHACE: Developer = Developer {
   </tr>
   <tr>
     <td align="center">
-       <img src="https://i.imgur.com/ePNZDDa.gif" height="130" alt="Tokai Teio"/>
+       <img src="./assets/symboli_rudolf_summoning_circle.webp" height="130" alt="Tokai Teio"/>
     </td>
   </tr>
 </table>
@@ -118,9 +118,9 @@ const CHACE: Developer = Developer {
 
 <div align="center">
 
-<img src="https://i.imgur.com/JxP1HQS.gif" height="95" alt="Haru Urara"/>
+<img src="./assets/haru_running.webp" height="95" alt="Haru Urara"/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://i.imgur.com/yFoBrfi.gif" height="95" alt="Daitaku Helios"/>
+<img src="./assets/Daitaku_Helios_cheer.webp" height="95" alt="Daitaku Helios"/>
 
 <br/><sub>がんばれ！</sub>
 
